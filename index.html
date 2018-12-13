@@ -1,0 +1,36 @@
+<html class="gr__apps_webssa_com">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body data-gr-c-s-loaded="true">
+    <h1>Welcome!</h1>
+    <button id="openappandroid">Test Android 1</button>
+    <button id="openappandroid2">Test Android 2</button> <br />
+
+    <input type="button" onclick="window.location.href='bankid:///?autostarttoken=@autoStartToken&redirect=null'" class="color-primary" value="ZignSec" />
+    <br />
+    <br />
+    <br />
+    <button id="openappios">Test Ios</button>
+
+    <script>
+      document
+        .getElementById("openappandroid")
+        .addEventListener("click", function() {
+          window.location.href = "tg://";
+        });
+      document
+        .getElementById("openappandroid2")
+        .addEventListener("click", function() {
+          window.location.assign("tg://");
+        });
+    </script>
+
+    <script>
+      document.getElementById("openappios").addEventListener("click", function()
+      {
+        window.location.href = "https://itunes.apple.com/us/app/pubg-mobile/id1330123889?mt=8"";
+      });
+    </script>
+  </body>
+</html>
